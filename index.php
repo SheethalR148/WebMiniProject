@@ -35,6 +35,7 @@
             float: right;
             padding: 5px 15px;
             font-size: 30px;
+            color: red;
         }
         div {
             padding: 50px;
@@ -53,9 +54,10 @@
     <nav>
         <ul>
             &nbsp;&nbsp;<li style="font-family: Algerian">Pizza Hot</li>
-            <li><a href="">My Cart</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Menu</a></li>
+            <li><a href="loginregister.php">My Cart</a></li>
+            <li><a href="about.php">About</a></li>
+            <li><a href="menu.php">Menu</a></li>
+            <li><a href="index.php">Home</a></li>
         </ul>
     </nav>
     <br/>
@@ -64,10 +66,10 @@
         <h1>Welcome To Pizza Hot</h1>
         <h3>Always served hot...</h3>
     </div>
-    <div style="background-color: darkblue">
-        <h5 style="font-family: Cambria;color: yellow;text-align: left">About:</h5>
-        <p>PIZZA HOT is a pizza delivery website </p>
-    </div>
+<!--    <div style="background-color: darkblue">-->
+<!--        <h5 style="font-family: Cambria;color: yellow;text-align: left">About:</h5>-->
+<!--        <p>PIZZA HOT is a pizza delivery website </p>-->
+<!--    </div>-->
 </body>
 </html>
 
