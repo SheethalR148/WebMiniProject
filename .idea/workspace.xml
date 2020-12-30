@@ -1,9 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:github" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="b61ee733-827a-4814-b7a6-e5e0b32bf492" name="Default Changelist" comment="background file and welcome page">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b61ee733-827a-4814-b7a6-e5e0b32bf492" name="Default Changelist" comment="menu,about page" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,10 +38,11 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ChangesTree.GroupingKeys" value="" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.CommitDialog" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -44,7 +61,10 @@
       <workItem from="1606474910654" duration="965000" />
       <workItem from="1606562167548" duration="2176000" />
       <workItem from="1606810415901" duration="29000" />
-      <workItem from="1609138215437" duration="17773000" />
+      <workItem from="1609138215437" duration="18001000" />
+      <workItem from="1609224872527" duration="1187000" />
+      <workItem from="1609250474569" duration="1781000" />
+      <workItem from="1609303907026" duration="7910000" />
     </task>
     <task id="LOCAL-00001" summary="background file and welcome page">
       <created>1609173596231</created>
@@ -53,11 +73,29 @@
       <option name="project" value="LOCAL" />
       <updated>1609173596231</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="background file and welcome page">
+      <created>1609173945956</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1609173945956</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="background file and welcome page" />
@@ -68,6 +106,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="434" y="188" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1609148479197" />
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1609319678638">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1609319678638" />
     <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1609148888351">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -80,14 +122,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="539" y="69" key="Github.UntrackedFilesDialog/0.0.1366.728@0.0.1366.728" timestamp="1609150152162" />
-    <state x="517" y="287" key="NewPhpFileDialog" timestamp="1606474997528">
+    <state x="513" y="87" key="NewPhpClassDialog" timestamp="1609319661130">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1606474997528" />
-    <state x="184" y="9" key="SettingsEditor" timestamp="1609173921292">
+    <state x="513" y="87" key="NewPhpClassDialog/0.0.1366.728@0.0.1366.728" timestamp="1609319661130" />
+    <state x="517" y="287" key="NewPhpFileDialog" timestamp="1609320915474">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1609173921292" />
+    <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1609320915474" />
+    <state x="184" y="9" key="SettingsEditor" timestamp="1609335919817">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1609335919817" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1609335585703">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1609335585703" />
     <state x="500" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609173693638">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
