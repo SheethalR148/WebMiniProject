@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b61ee733-827a-4814-b7a6-e5e0b32bf492" name="Default Changelist" comment="menu,about page" />
+    <list default="true" id="b61ee733-827a-4814-b7a6-e5e0b32bf492" name="Default Changelist" comment="menu,about page">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,7 +44,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -64,7 +66,7 @@
       <workItem from="1609138215437" duration="18001000" />
       <workItem from="1609224872527" duration="1187000" />
       <workItem from="1609250474569" duration="1781000" />
-      <workItem from="1609303907026" duration="7910000" />
+      <workItem from="1609303907026" duration="8606000" />
     </task>
     <task id="LOCAL-00001" summary="background file and welcome page">
       <created>1609173596231</created>
@@ -80,7 +82,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609173945956</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="menu,about page">
+      <created>1609335945772</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1609335945772</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,9 +108,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="background file and welcome page" />
-    <option name="LAST_COMMIT_MESSAGE" value="background file and welcome page" />
+    <MESSAGE value="menu,about page" />
+    <option name="LAST_COMMIT_MESSAGE" value="menu,about page" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="275" y="22" key="#Deployment" timestamp="1609336419745">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="22" key="#Deployment/0.0.1366.728@0.0.1366.728" timestamp="1609336419745" />
     <state x="434" y="188" key="#Notifications" timestamp="1609148479197">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -110,6 +124,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1609319678638" />
+    <state x="310" y="0" key="CommitChangelistDialog2" timestamp="1609336484862">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="310" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1609336484862" />
+    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1609336646263">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1609336646263" />
     <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1609148888351">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -130,17 +152,21 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1609320915474" />
-    <state x="184" y="9" key="SettingsEditor" timestamp="1609335919817">
+    <state x="184" y="9" key="SettingsEditor" timestamp="1609336645423">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1609335919817" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1609335585703">
+    <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1609336645423" />
+    <state x="567" y="278" key="VCS.EditChangelistDialog" timestamp="1609336516470">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1609335585703" />
-    <state x="500" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609173693638">
+    <state x="567" y="278" key="VCS.EditChangelistDialog/0.0.1366.728@0.0.1366.728" timestamp="1609336516470" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1609336204997">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="500" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1609173693638" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1609336204997" />
+    <state x="500" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609336178649">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="500" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1609336178649" />
   </component>
 </project>
