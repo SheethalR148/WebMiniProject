@@ -19,7 +19,21 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b61ee733-827a-4814-b7a6-e5e0b32bf492" name="Default Changelist" comment="menu,about page" />
+    <list default="true" id="b61ee733-827a-4814-b7a6-e5e0b32bf492" name="Default Changelist" comment="menu,about page">
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/errors.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newidea.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/register.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart.php" beforeDir="false" afterPath="$PROJECT_DIR$/cart.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loginregister.php" beforeDir="false" afterPath="$PROJECT_DIR$/loginregister.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/menu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,12 +65,13 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="ChangesTree.GroupingKeys" value="directory" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -80,6 +95,14 @@
       <workItem from="1609224872527" duration="1187000" />
       <workItem from="1609250474569" duration="1781000" />
       <workItem from="1609303907026" duration="15066000" />
+      <workItem from="1609394685038" duration="14228000" />
+      <workItem from="1609429491224" duration="220000" />
+      <workItem from="1609912956139" duration="656000" />
+      <workItem from="1609928634104" duration="1577000" />
+      <workItem from="1610337433443" duration="6152000" />
+      <workItem from="1610378784994" duration="4536000" />
+      <workItem from="1610542496081" duration="8951000" />
+      <workItem from="1610598129485" duration="7538000" />
     </task>
     <task id="LOCAL-00001" summary="background file and welcome page">
       <created>1609173596231</created>
@@ -123,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609346723628</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="cart,about page">
+      <created>1609395093395</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1609395093395</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,11 +169,13 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="background file and welcome page" />
     <MESSAGE value="menu,about page" />
-    <option name="LAST_COMMIT_MESSAGE" value="menu,about page" />
+    <MESSAGE value="cart,about page" />
+    <option name="LAST_COMMIT_MESSAGE" value="cart,about page" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="22" key="#Deployment" timestamp="1609336419745">
@@ -154,6 +186,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="434" y="188" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1609148479197" />
+    <state x="59" y="205" key="#SQL_Dialects" timestamp="1609409374937">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="59" y="205" key="#SQL_Dialects/0.0.1366.728@0.0.1366.728" timestamp="1609409374936" />
+    <state x="275" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1609411216594">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1609411216594" />
     <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1609319678638">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -166,10 +206,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="92" y="92" width="1182" height="544" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1609336646263" />
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1609148888351">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1610543874408">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1609148888351" />
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1610543874408" />
     <state x="561" y="262" key="Github.ShareDialog" timestamp="1609338146191">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -182,22 +222,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="513" y="87" key="NewPhpClassDialog/0.0.1366.728@0.0.1366.728" timestamp="1609319661130" />
-    <state x="517" y="287" key="NewPhpFileDialog" timestamp="1609341866390">
+    <state x="517" y="287" key="NewPhpFileDialog" timestamp="1610543072222">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1609341866390" />
-    <state x="184" y="9" key="SettingsEditor" timestamp="1609336645423">
+    <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1610543072222" />
+    <state x="184" y="9" key="SettingsEditor" timestamp="1609412564995">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1609336645423" />
+    <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1609412564995" />
     <state x="567" y="278" key="VCS.EditChangelistDialog" timestamp="1609337066189">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="567" y="278" key="VCS.EditChangelistDialog/0.0.1366.728@0.0.1366.728" timestamp="1609337066189" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1609346806707">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1609410343553">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1609346806707" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1609410343553" />
     <state x="500" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609336178649">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

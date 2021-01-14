@@ -59,34 +59,56 @@
         <li><a href="index.php">Home</a></li>
     </ul>
 </nav>
+<br/><br/><br/>
+<table border="0" align="center">
+<?php
+require_once 'sql.php';
+$result=mysqli_query($conn,"select * from imagelist");
+?>
+<tr>
+    <?php
+    $count=0;
+while($row=mysqli_fetch_array($result))
+{
+    $count++;
 
-<div>
-    <img src="images/image1.jpg" alt="first image">
-    &nbsp;&nbsp&nbsp;<img src="images/image2.jpg" alt="first image">
-    &nbsp;&nbsp&nbsp;<img src="images/image3.jpg" alt="first image">
-    &nbsp;&nbsp&nbsp;<img src="images/image4.jpg" alt="first image"><br/><br/><br/>
-    <img src="images/image5.jpg" alt="first image">
-    &nbsp;&nbsp&nbsp;<img src="images/image6.jpg" alt="first image">
-    &nbsp;&nbsp&nbsp;<img src="images/image7.jpg" alt="first image">
-    &nbsp;&nbsp&nbsp;<img src="images/image8.jpg" alt="first image"><br/><br/><br/>
-    <img src="images/image9.jpg" alt="first image">
-    &nbsp;&nbsp&nbsp;<img src="images/image10.jpg" alt="first image">
-    &nbsp;&nbsp&nbsp;<img src="images/image11.jpg" alt="first image">
-    &nbsp;&nbsp&nbsp;<img src="images/image12.jpg" alt="first image"><br/><br/><br/>
-    <img src="images/image13.jpg" alt="first image">
-    &nbsp;&nbsp&nbsp;<img src="images/image14.jpg" alt="first image">
-    &nbsp;&nbsp&nbsp;<img src="images/image15.jpg" alt="first image">
-    &nbsp;&nbsp&nbsp;<img src="images/image16.jpg" alt="first image"><br/><br/><br/>
-    <img src="images/image17.jpg" alt="first image">
-    &nbsp;&nbsp&nbsp;<img src="images/image18.jpg" alt="first image">
-    &nbsp;&nbsp&nbsp;<img src="images/image19.jpg" alt="first image">
-    &nbsp;&nbsp&nbsp;<img src="images/image20.jpg" alt="first image"><br/><br/><br/>
-    <img src="images/image21.jpg" alt="first image">
-    &nbsp;&nbsp&nbsp;<img src="images/image22.jpg" alt="first image">
+    ?><td> <?php echo '&nbsp&nbsp&nbsp;<img src="data:image/jpeg;base64,'.base64_encode($row['image']).'" value='?>$row['cost']<?php ';/>';
+    ?></td>
+<!--    <td>--><?php //echo $row['cost']?><!--</td>-->
+<?php
+    if($count==4){
+        $count=0;
+?> </tr>&nbsp;&nbsp;&nbsp;<tr>
+        <?php
+    }
+}
+?></tr>
+</table>
+<!--<div>-->
+<!--    <img src="images/image1.jpg" alt="first image">-->
+<!--    &nbsp;&nbsp&nbsp;<img src="images/image2.jpg" alt="first image">-->
+<!--    &nbsp;&nbsp&nbsp;<img src="images/image3.jpg" alt="first image">-->
+<!--    &nbsp;&nbsp&nbsp;<img src="images/image4.jpg" alt="first image"><br/><br/><br/>-->
+<!--    <img src="images/image5.jpg" alt="first image">-->
+<!--    &nbsp;&nbsp&nbsp;<img src="images/image6.jpg" alt="first image">-->
+<!--    &nbsp;&nbsp&nbsp;<img src="images/image7.jpg" alt="first image">-->
+<!--    &nbsp;&nbsp&nbsp;<img src="images/image8.jpg" alt="first image"><br/><br/><br/>-->
+<!--    <img src="images/image9.jpg" alt="first image">-->
+<!--    &nbsp;&nbsp&nbsp;<img src="images/image10.jpg" alt="first image">-->
+<!--    &nbsp;&nbsp&nbsp;<img src="images/image11.jpg" alt="first image">-->
+<!--    &nbsp;&nbsp&nbsp;<img src="images/image12.jpg" alt="first image"><br/><br/><br/>-->
+<!--    <img src="images/image13.jpg" alt="first image">-->
+<!--    &nbsp;&nbsp&nbsp;<img src="images/image14.jpg" alt="first image">-->
+<!--    &nbsp;&nbsp&nbsp;<img src="images/image15.jpg" alt="first image">-->
+<!--    &nbsp;&nbsp&nbsp;<img src="images/image16.jpg" alt="first image"><br/><br/><br/>-->
+<!--    <img src="images/image17.jpg" alt="first image">-->
+<!--    &nbsp;&nbsp&nbsp;<img src="images/image18.jpg" alt="first image">-->
+<!--    &nbsp;&nbsp&nbsp;<img src="images/image19.jpg" alt="first image">-->
+<!--    &nbsp;&nbsp&nbsp;<img src="images/image20.jpg" alt="first image"><br/><br/><br/>-->
+<!--    <img src="images/image21.jpg" alt="first image">-->
+<!--    &nbsp;&nbsp&nbsp;<img src="images/image22.jpg" alt="first image">-->
 <!--    &nbsp;&nbsp&nbsp;<img src="images/image23.jpg" alt="first image">-->
 <!--    &nbsp;&nbsp&nbsp;<img src="images/image24.jpg" alt="first image"><br/><br/><br/>-->
-</div>
+<!--</div>-->
 </body>
 </html>
-
-
