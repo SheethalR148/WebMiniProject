@@ -49,7 +49,7 @@ if (isset($_POST['reg_user'])) {
         $query = "INSERT INTO register (email, password) VALUES('$email', '$password')";
         mysqli_query($db, $query);
         $_SESSION['username'] = $email;
-        $_SESSION['success'] = "You are now logged in";
+//        $_SESSION['success'] = "You are now logged in";
         header('location: cart.php');
     }
 }
@@ -76,7 +76,7 @@ if (isset($_POST['login_user'])) {
         if (mysqli_num_rows($results) == 1) {
             $_SESSION['username'] = $email;
             $_SESSION['success'] = "You are now logged in";
-            header('location: index.php');
+            header('location: cart.php');
         }else {
             array_push($errors, "Wrong email/password combination");
         }

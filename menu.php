@@ -72,8 +72,10 @@ while($row=mysqli_fetch_array($result))
 {
     $count++;
 
-    ?><td> <?php echo '&nbsp&nbsp&nbsp;<img src="data:image/jpeg;base64,'.base64_encode($row['image']).'" value='?>$row['cost']<?php ';/>';
-    ?></td>
+    ?><td><button type="submit" name="item" id="<?php $row['name']?>" onclick="window.open('order.php?id=<?php echo $row['name'];?>&cost=<?php echo $row['cost']?>')">
+            <?php echo '<img src="data:image/jpeg;base64,'.base64_encode($row['image']).'" value='.$row['name'].'name='.$row['id'].';/>';
+
+            ?></button></td>
 <!--    <td>--><?php //echo $row['cost']?><!--</td>-->
 <?php
     if($count==4){

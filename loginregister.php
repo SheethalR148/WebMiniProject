@@ -70,7 +70,7 @@ if (isset($_GET['logout'])) {
 <nav>
     <ul>
         &nbsp;&nbsp;<li style="font-family: Algerian">Pizza Hot</li>
-        <li><a href="loginregister.php">My Cart</a></li>
+        <li><a href="cart.php">My Cart</a></li>
         <li><a href="about.php">About</a></li>
         <li><a href="menu.php">Menu</a></li>
         <li><a href="index.php">Home</a></li>
@@ -93,7 +93,7 @@ if (isset($_GET['logout'])) {
     <!-- logged in user information -->
     <?php  if (isset($_SESSION['email'])) : ?>
         <p>Welcome <strong><?php echo $_SESSION['email']; ?></strong></p>
-        <p> <a href="index.php?logout='1'" style="color: red;">logout</a> </p>
+        <p> <a href="cart.php?logout='1'" style="color: red;">logout</a> </p>
     <?php endif ?>
 </div>
 
