@@ -108,7 +108,7 @@ if (isset($_GET['logout'])) {
     </tr>
     <tr align="center">
         <td colspan="2">Enter Mobile Number:</td>
-        <td><input type="text" name="mobile"></td>
+        <td><input type="text" name="mobile" pattern="[0-9]+"></td>
     </tr>
     <tr align="center">
         <td colspan="3"><a href="proceed.php?id=<?php echo $total?>&name=name">PROCEED</a></td>

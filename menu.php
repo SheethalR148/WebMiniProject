@@ -72,15 +72,14 @@ while($row=mysqli_fetch_array($result))
 {
     $count++;
 
-    ?><td><button type="submit" name="item" id="<?php $row['name']?>" onclick="window.open('order.php?id=<?php echo $row['name'];?>&cost=<?php echo $row['cost']?>')">
-            <?php echo '<img src="data:image/jpeg;base64,'.base64_encode($row['image']).'" value='.$row['name'].'name='.$row['id'].';/>';
-
-            ?></button></td>
+    ?><td><?php echo '<img src="data:image/jpeg;base64,'.base64_encode($row['image']).'" value='.$row['name'].'name='.$row['id'].';/>';
+        ?><button style="margin: auto;display: block;color: #dff0d8;background-color: black" type="submit" name="item" id="<?php $row['name']?>" onclick="window.open('order.php?id=<?php echo $row['name'];?>&cost=<?php echo $row['cost']?>')">
+             + Add to Cart  </button></td>
 <!--    <td>--><?php //echo $row['cost']?><!--</td>-->
 <?php
     if($count==4){
         $count=0;
-?> </tr>&nbsp;&nbsp;&nbsp;<tr>
+?> </tr>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<tr>
         <?php
     }
 }

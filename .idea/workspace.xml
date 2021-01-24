@@ -20,8 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b61ee733-827a-4814-b7a6-e5e0b32bf492" name="Default Changelist" comment="Cart and End Page">
+      <change afterPath="$PROJECT_DIR$/admininsert.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adminlogin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proceed.php" beforeDir="false" afterPath="$PROJECT_DIR$/proceed.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart.php" beforeDir="false" afterPath="$PROJECT_DIR$/cart.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/menu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +64,7 @@
     <property name="ChangesTree.GroupingKeys" value="directory" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../library" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="Errors" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -94,7 +100,12 @@
       <workItem from="1610598129485" duration="9270000" />
       <workItem from="1610790989525" duration="8072000" />
       <workItem from="1610869255785" duration="25960000" />
-      <workItem from="1610933280711" duration="2137000" />
+      <workItem from="1610933280711" duration="2469000" />
+      <workItem from="1610945605671" duration="927000" />
+      <workItem from="1611049180191" duration="5483000" />
+      <workItem from="1611319599189" duration="6621000" />
+      <workItem from="1611410220152" duration="5099000" />
+      <workItem from="1611462803951" duration="1543000" />
     </task>
     <task id="LOCAL-00001" summary="background file and welcome page">
       <created>1609173596231</created>
@@ -159,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610902232023</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Delete items on cart">
+      <created>1610935695759</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1610935695759</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,7 +201,8 @@
     <MESSAGE value="cart,about page" />
     <MESSAGE value="Database connection and data retrieval" />
     <MESSAGE value="Cart and End Page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cart and End Page" />
+    <MESSAGE value="Delete items on cart" />
+    <option name="LAST_COMMIT_MESSAGE" value="Delete items on cart" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="22" key="#Deployment" timestamp="1609336419745">
@@ -214,10 +233,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="92" y="92" width="1182" height="544" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1609336646263" />
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1610877376649">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1611462842684">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1610877376649" />
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1611462842684" />
     <state x="561" y="262" key="Github.ShareDialog" timestamp="1609338146191">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -230,10 +249,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="513" y="87" key="NewPhpClassDialog/0.0.1366.728@0.0.1366.728" timestamp="1609319661130" />
-    <state x="517" y="287" key="NewPhpFileDialog" timestamp="1610899505893">
+    <state x="517" y="287" key="NewPhpFileDialog" timestamp="1611325840835">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1610899505893" />
+    <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1611325840835" />
     <state x="184" y="9" key="SettingsEditor" timestamp="1609412564995">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -242,10 +261,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="567" y="278" key="VCS.EditChangelistDialog/0.0.1366.728@0.0.1366.728" timestamp="1609337066189" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1610902287926">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1610935725986">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1610902287926" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1610935725986" />
     <state x="500" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609336178649">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

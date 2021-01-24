@@ -11,9 +11,9 @@
             padding: 0;
             margin: 0;
             background-image: url("loginimage.jpeg");
+            background-size: cover;
             background-repeat: no-repeat;
             background-position: center;
-            background-size: cover;
         }
 
     </style>
